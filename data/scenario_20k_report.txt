@@ -1,0 +1,80 @@
+================================================================================
+20,000 Order Scenario Generation Report
+================================================================================
+
+SUMMARY STATISTICS
+--------------------------------------------------------------------------------
+Total orders: 20000
+Time steps: 48
+Time step duration: 30 minutes
+Total simulation time: 24.0 hours
+Unique OD pairs: 65
+Unique destination regions: 65
+
+TIME STEP DISTRIBUTION
+--------------------------------------------------------------------------------
+Orders per hour (2 time steps per hour):
+  Hour  0 (00:00-00:30 and 00:30-01:00):   138 orders (steps 0: 72, 1: 66)
+  Hour  1 (01:00-01:30 and 01:30-02:00):   149 orders (steps 2: 69, 3: 80)
+  Hour  2 (02:00-02:30 and 02:30-03:00):   134 orders (steps 4: 55, 5: 79)
+  Hour  3 (03:00-03:30 and 03:30-04:00):   116 orders (steps 6: 60, 7: 56)
+  Hour  4 (04:00-04:30 and 04:30-05:00):   143 orders (steps 8: 75, 9: 68)
+  Hour  5 (05:00-05:30 and 05:30-06:00):   152 orders (steps 10: 69, 11: 83)
+  Hour  6 (06:00-06:30 and 06:30-07:00):   363 orders (steps 12: 185, 13: 178)
+  Hour  7 (07:00-07:30 and 07:30-08:00):   353 orders (steps 14: 175, 15: 178)
+  Hour  8 (08:00-08:30 and 08:30-09:00):  1344 orders (steps 16: 701, 17: 643)
+  Hour  9 (09:00-09:30 and 09:30-10:00):  1393 orders (steps 18: 686, 19: 707)
+  Hour 10 (10:00-10:30 and 10:30-11:00):  1292 orders (steps 20: 623, 21: 669)
+  Hour 11 (11:00-11:30 and 11:30-12:00):  1100 orders (steps 22: 529, 23: 571)
+  Hour 12 (12:00-12:30 and 12:30-13:00):  1000 orders (steps 24: 509, 25: 491)
+  Hour 13 (13:00-13:30 and 13:30-14:00):  1067 orders (steps 26: 533, 27: 534)
+  Hour 14 (14:00-14:30 and 14:30-15:00):  1398 orders (steps 28: 717, 29: 681)
+  Hour 15 (15:00-15:30 and 15:30-16:00):  1426 orders (steps 30: 707, 31: 719)
+  Hour 16 (16:00-16:30 and 16:30-17:00):  1356 orders (steps 32: 661, 33: 695)
+  Hour 17 (17:00-17:30 and 17:30-18:00):  1764 orders (steps 34: 858, 35: 906)
+  Hour 18 (18:00-18:30 and 18:30-19:00):  1782 orders (steps 36: 898, 37: 884)
+  Hour 19 (19:00-19:30 and 19:30-20:00):  1782 orders (steps 38: 905, 39: 877)
+  Hour 20 (20:00-20:30 and 20:30-21:00):   679 orders (steps 40: 359, 41: 320)
+  Hour 21 (21:00-21:30 and 21:30-22:00):   669 orders (steps 42: 332, 43: 337)
+  Hour 22 (22:00-22:30 and 22:30-23:00):   194 orders (steps 44: 97, 45: 97)
+  Hour 23 (23:00-23:30 and 23:30-24:00):   206 orders (steps 46: 106, 47: 100)
+
+PEAK AND VALLEY ANALYSIS
+--------------------------------------------------------------------------------
+Top 5 busiest time steps:
+  Time step 35 (17:30): 906 orders
+  Time step 38 (19:00): 905 orders
+  Time step 36 (18:00): 898 orders
+  Time step 37 (18:30): 884 orders
+  Time step 39 (19:30): 877 orders
+
+Top 5 quietest time steps:
+  Time step  4 (02:00): 55 orders
+  Time step  7 (03:30): 56 orders
+  Time step  6 (03:00): 60 orders
+  Time step  1 (00:30): 66 orders
+  Time step  9 (04:30): 68 orders
+
+REGION DISTRIBUTION
+--------------------------------------------------------------------------------
+Total destination regions: 65
+Most popular region: 0 (1732 orders)
+Least popular region: 57 (123 orders)
+Mean orders per region: 307.69
+Median orders per region: 202.00
+
+Top 10 destination regions:
+   1. Region   0:  1732 orders (8.66%)
+   2. Region   1:  1692 orders (8.46%)
+   3. Region   2:  1025 orders (5.12%)
+   4. Region   3:   936 orders (4.68%)
+   5. Region   4:   818 orders (4.09%)
+   6. Region   5:   490 orders (2.45%)
+   7. Region   7:   451 orders (2.25%)
+   8. Region   6:   446 orders (2.23%)
+   9. Region   9:   439 orders (2.20%)
+  10. Region   8:   438 orders (2.19%)
+
+================================================================================
+End of Report
+================================================================================
