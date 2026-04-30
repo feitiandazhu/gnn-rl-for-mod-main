@@ -73,10 +73,6 @@ gnn-rl-for-amod-main/
 - `saved_files/ckpt/wuhan/a2c_gnn_final.pth`: 训练好的模型
 - `saved_files/rl_logs/wuhan/a2c_gnn_train.pth`: 训练日志
 
-## 🔧 原始实现
-
-本项目基于原始论文 [Graph Neural Network Reinforcement Learning for Autonomous Mobility-on-Demand Systems](https://arxiv.org/abs/2104.11434) 的实现，并针对武汉地区进行了适配和优化。
-
 ## Examples
 
 To train an agent, `main.py` accepts the following arguments:
@@ -117,8 +113,6 @@ python main.py
 python main.py --test=True
 ```
 
-## Credits
-This work was conducted as a joint effort with [Kaidi Yang*](https://sites.google.com/site/kdyang1990/), [James Harrison*](https://stanford.edu/~jh2/), [Filipe Rodrigues'](http://fprodrigues.com/), [Francisco C. Pereira'](http://camara.scripts.mit.edu/home/) and [Marco Pavone*](https://web.stanford.edu/~pavone/), at Technical University of Denmark' and Stanford University*. 
 
 ## Reference
 ```
